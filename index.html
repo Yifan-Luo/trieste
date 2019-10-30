@@ -23,6 +23,8 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/audiobook/css/style.css">
+<link rel="stylesheet" href="\audiobook\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\audiobook\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 <body>
@@ -84,15 +86,18 @@
     <div class="article-entry" itemprop="articleBody">
       
         
-			<script>
-				console.error("Error: [hexo-tag-aplayer] Unrecognized tag argument(2): autoplay=false");
-			</script>
-<p>————————————————<br>版权声明：本文为CSDN博主「白蛇仙人」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/mudooo/article/details/94575788" target="_blank" rel="noopener">https://blog.csdn.net/mudooo/article/details/94575788</a></p>
-
+        <div id="aplayer-qMDIpjRK" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+			  <script>
+				  var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","music":[{"title":"平凡之路","author":"朴树","url":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.mp3","pic":"https://ogd99kckh.qnssl.com/1.jpg","lrc":"http://og9ocpmwk.bkt.clouddn.com/%E5%B9%B3%E5%87%A1%E4%B9%8B%E8%B7%AF.txt"},{"title":"野子","author":"苏运莹","url":"http://og9ocpmwk.bkt.clouddn.com/01%20%E9%87%8E%E5%AD%90.m4a","pic":"http://og9ocpmwk.bkt.clouddn.com/%E9%87%8E%E5%AD%90.jpg","lrc":"https://ogd99kckh.qnssl.com/%E9%87%8E%E5%AD%90.txt"}]};
+				  options.element = document.getElementById("aplayer-qMDIpjRK");
+				  var ap = new APlayer(options);
+			    window.aplayers || (window.aplayers = []);
+				  window.aplayers.push(ap);
+			  </script>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yifan-luo.github.io/audiobook/2019/10/30/audiotest/" data-id="ck2da7vpb0000lcrx8lnl6y8z" class="article-share-link">Share</a>
+      <a data-url="https://yifan-luo.github.io/audiobook/2019/10/30/audiotest/" data-id="ck2dabx8500001srxfjgpfjdf" class="article-share-link">Share</a>
       
       
     </footer>
@@ -128,7 +133,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yifan-luo.github.io/audiobook/2019/10/29/test-my-site/" data-id="ck2da7vpq0002lcrxfhmef4ku" class="article-share-link">Share</a>
+      <a data-url="https://yifan-luo.github.io/audiobook/2019/10/29/test-my-site/" data-id="ck2dabx8l00021srxc5y23bi7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -177,7 +182,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yifan-luo.github.io/audiobook/2019/10/29/hello-world/" data-id="ck2da7vpl0001lcrxexoj7kzz" class="article-share-link">Share</a>
+      <a data-url="https://yifan-luo.github.io/audiobook/2019/10/29/hello-world/" data-id="ck2dabx8g00011srx0044ao26" class="article-share-link">Share</a>
       
       
     </footer>
